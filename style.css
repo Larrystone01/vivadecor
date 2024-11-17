@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.nav-link li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.logo {
+  width: 100px;
+  height: 20px;
+}
+
+.nav-link {
+  /* display: flex; */
+  gap: 2rem;
+}
+
+.l-heading {
+  font-size: 80px;
+}
+
+.second-part {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rectangle {
+  width: 100px;
+  height: 100px;
+  border: #333 solid 1px;
+}
+
+.figure {
+  padding: 0 10px;
+  line-height: 0.2;
+}
+
+.figure-text {
+  font-size: 12px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-self: self-start;
+  gap: 3rem;
+}
+
+.right {
+  position: relative;
+  overflow: hidden;
+}
+
+.right-img {
+  width: 400px;
+}
+
+.line {
+  width: 50px;
+  height: 2px;
+  background-color: #333;
+  align-self: center;
+  margin-bottom: 10px;
+}
+
+.my {
+  margin: 6rem 0;
+}
+.py-10 {
+  padding: 6rem 0;
+}
+/* .heading {
+  display: flex;
+  gap: 1rem;
+} */
+
+/* .services {
+  display: flex;
+} */
+
+.service-item img {
+  width: 42px;
+  height: 40px;
+}
+
+.your-dream-design img {
+  width: 400px;
+  height: 400px;
+}
+
+.linksys-heading {
+  padding-bottom: 15px;
+}
+
+.linksys {
+  border-bottom: 1px solid #dadada;
+}
+.linksys a {
+  text-decoration: none;
+  color: #333;
+}
+
+.step img {
+  width: 30px;
+  height: 30px;
+}
+
+.line-height {
+  width: 1px;
+  height: 70px;
+  background-color: #dadada;
+  margin: -45px 15px 0 15px;
+  /* margin-left: 15px; */
+}
+
+.py {
+  padding-top: 20px;
+}
+
+.customers {
+  position: relative;
+}
+
+.testimonials {
+  position: absolute;
+  left: 190px;
+  top: 160px;
+}
+
+.quote {
+  font-size: 80px;
+}
+
+.newsletter {
+  max-width: 800px;
+  margin: auto;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+.left-part a {
+  padding: 14px;
+  background: #f1f1f1;
+}
