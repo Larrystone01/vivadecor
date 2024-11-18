@@ -25,8 +25,8 @@
 }
 
 .second-part {
-  display: flex;
   justify-content: space-between;
+  /* justify-content: flex-start; */
 }
 
 .rectangle {
@@ -45,19 +45,30 @@
 }
 
 .left {
-  display: flex;
   flex-direction: column;
-  align-self: self-start;
-  gap: 3rem;
+  align-items: stretch;
+  /* align-self: self-start; */
+  gap: 4rem;
 }
 
 .right {
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .right-img {
   width: 400px;
+  /* height: 100%; */
+}
+
+.div-img {
+  top: 20px;
+  left: 30px;
+}
+
+.arrow-down {
+  right: 0;
+  bottom: 0;
 }
 
 .line {
@@ -70,6 +81,10 @@
 
 .my {
   margin: 6rem 0;
+}
+
+.ms {
+  margin: 9rem 0;
 }
 .py-10 {
   padding: 6rem 0;
