@@ -1,0 +1,39 @@
+* {
+  padding: 0 auto;
+}
+
+.nav-container {
+  display: flex;
+}
+
+.nav-links {
+  display: none;
+}
+
+.first-part {
+  display: flex;
+  flex-direction: column;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+}
+
+.your-dream-design {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-part {
+  display: none;
+}
+
+.testimonials {
+  position: static;
+}
+
+.footer-design {
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr) !important; */
+}
