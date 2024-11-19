@@ -1,6 +1,12 @@
 * {
   padding: 0 auto;
 }
+.mar-mo {
+  margin-top: 1.5rem;
+}
+#navbar {
+  background: rgba(255, 255, 255, 0.95);
+}
 
 .nav-container {
   display: flex;
@@ -33,7 +39,49 @@
   position: static;
 }
 
-.footer-design {
-  /* display: grid;
-  grid-template-columns: repeat(2, 1fr) !important; */
+/* .left a {
+  margin-top: 1.5rem;
+} */
+
+.heading {
+  margin-top: 15rem;
+}
+
+.linksys-heading {
+  padding-bottom: 0;
+}
+
+.linksys {
+  margin-bottom: 1rem;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.line-height {
+  margin: -65px 15px 0 15px;
+}
+
+#our-services {
+  margin: 3rem 0;
+}
+
+.social-links {
+  margin-bottom: 2rem;
+}
+
+.figures {
+  margin-bottom: 1.5rem;
+}
+
+.hero-content img {
+  align-self: center;
+}
+
+.left a {
+  align-self: center;
 }
