@@ -157,3 +157,51 @@
   padding: 14px;
   background: #f1f1f1;
 }
+
+/* Sign Up Page */
+
+.signup-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  background: #f5f5dc;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+input {
+  padding: 5px 0;
+  border-radius: 5px;
+  border: 1px;
+  outline: none;
+}
+
+button [type="submit"] {
+  justify-self: center;
+}
+
+.OR::after,
+.OR::before {
+  content: "";
+  width: 50%;
+  height: 1px;
+  background: #333;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.OR {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+li a {
+  background: #333;
+}
