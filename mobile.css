@@ -10,10 +10,41 @@
 
 .nav-container {
   display: flex;
+  position: relative;
 }
 
-.nav-links {
+.one-side {
   display: none;
+}
+
+.active {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 80px;
+  width: 100%;
+  background: #fffafa;
+  text-align: center;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.one-side.active .hamburger .lines {
+  opacity: 0;
+}
+
+.sign-upbtn {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.nav-link {
+  flex-direction: column;
+  margin: 0;
+}
+
+#hamburgerMenu {
+  display: block;
 }
 
 .first-part {
