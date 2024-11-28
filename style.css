@@ -36,44 +36,11 @@
   gap: 2rem;
 }
 
-#hamburgerMenu {
+.hamburger {
   display: none;
-  /* width: 20px;
-  height: 20px;
-  line-height: 0; */
+  /* position: absolute; */
   align-self: center;
   cursor: pointer;
-}
-
-/* .lines {
-  width: 100%;
-  height: 1.5px;
-  background: #333;
-  transition: all 0.3s ease-in;
-} */
-
-/* .lines::after,
-.lines::before {
-  content: "";
-  display: inline-block;
-  width: 100%;
-  height: 2px;
-  background: #333;
-  transition: all 0.3s ease-in;
-} */
-
-/* .lines::before {
-  margin-top: 6px;
-} */
-
-.one-side.active .lines {
-  opacity: 0;
-  display: none;
-  background: transparent;
-}
-
-.one-side.active .lines::after {
-  transform: rotate(45deg) translateY(-10px);
 }
 
 .l-heading {

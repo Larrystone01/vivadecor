@@ -2,6 +2,7 @@ const hamburger = document.getElementById("hamburgerMenu");
 const oneSide = document.getElementById("oneSide");
 const signUp = document.getElementById("signUp");
 const burGer = document.querySelector(".burger");
+
 hamburger.addEventListener("click", () => {
   // oneSide.classList.toggle("active");
 
@@ -27,7 +28,12 @@ hamburger.addEventListener("click", () => {
     // console.log("Active class removed");
   }
 
-  signUp.classList.remove("btn-dark");
+  signUp.classList.toggle("btn-dark");
+});
+
+window.addEventListener("scroll", () => {
+  oneSide.classList.remove("active");
+  burGer.classList.replace("ti-x", "ti-menu-2");
 });
 
 // hamburger.addEventListener("click", () => {});
