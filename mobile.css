@@ -16,9 +16,12 @@
 
 .one-side {
   flex-direction: column;
+  background: #fffafa;
+  width: 100%;
   position: absolute;
-  left: 50%;
+  left: 0;
   margin-top: -280px;
+  text-align: center;
   z-index: -101;
   transition: margin 0.5s ease-in-out;
   /* talk about this Opacity with stephen and the one in the active class also, I used the opacity because some of the element in the oneside class are still breaking into the screen since we didnt use display none  */
@@ -45,6 +48,12 @@
 .sign-upbtn {
   padding-top: 30px;
   flex-grow: 1;
+}
+
+#signUp {
+  background: none;
+  border: none;
+  color: #333;
 }
 
 .nav-link {
